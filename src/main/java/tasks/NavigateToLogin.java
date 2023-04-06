@@ -11,7 +11,7 @@ public class NavigateToLogin implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Click.on(goLogin)
+                Click.on(GO_LOGIN)
         );
     }
 }

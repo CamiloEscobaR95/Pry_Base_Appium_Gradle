@@ -5,5 +5,5 @@ import net.serenitybdd.screenplay.targets.Target;
 
 public class HomePage {
 
-    public static Target goLogin = Target.the("Boton para ingresar a login").located(AppiumBy.accessibilityId("Login Screen"));
+    public static final  Target GO_LOGIN = Target.the("Boton para ingresar a login").located(AppiumBy.accessibilityId("Login Screen"));
 }
